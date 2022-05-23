@@ -1,33 +1,12 @@
-let isRaining = false;
-let temperature = 25;
-let minutes;
-if (isRaining)
-  {
-    minutes = 0;
-  }
-else{
-  if (temperature > 35 && temperature < 0)
-    {
-      minutes = 0;
-    }
-  if (temperature == 20)
-    {
-      minutes = 20;
-    }
-  else
-    {
-      if (temperature > 20)
-        {
-          minutes = 20 - (temperature - 20);
-        }
-      if(temperature < 20)
-        {
-          minutes = 20 - (20-temperature);
-        }
-    }
-  if (minutes<0)
-  {
-    minutes=0
-  }
+var numbers = [3, 5, 15, 6, 2, 1];
+var swap;
+
+for (var i = 0; i < numbers.length; i++) {
+for (var j = i + 1; j < numbers.length; j++) {
+if (numbers[j] < numbers[i]) {
+swap = numbers[i];
+numbers[i] = numbers[j];
+numbers[j] = swap;}
 }
-alert(minutes);
+}
+console.log(numbers);
