@@ -1,13 +1,22 @@
-poly = 1771;
-poly = String(poly);
-let ylop ="";
-let isPalindrom = false;
-for (let i = poly.length - 1;i>=0;i--)
-  {
-    ylop += poly[i];
+const getData = function(keys, data) {
+  let array = [];
+  for (let i = 0; i < data.length; i++) {
+    let obj = {};
+    for (let j = 0; j < keys.length; j++) {
+      if (data[i][j]){
+      obj[keys[j]] = data[i][j];
+      }
+    }
+    array.push(obj);
   }
-if(poly == ylop)
-  {
-    isPalindrom = true;
-  }
-console.log(isPalindrom)
+  return array;
+}
+// Массив ключей
+let key=['имя', 'любимый цвет', 'любимое блюдо'];
+// Массив значений
+let mass = [
+ ['Василий', 'красный', 'борщ'],
+ ['Мария'],
+ ['Иннокентий', 'жёлтый', 'пельмени', '18', 'Азовское']
+];
+console.log(getData(key,mass))
