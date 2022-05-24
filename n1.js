@@ -1,5 +1,5 @@
-let age = 10;
-let ageGroup;
+const age = 10;
+const ageGroup;
 if (age <= 1)
   {
     ageGroup = "Щенки";
