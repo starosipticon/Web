@@ -8,7 +8,7 @@ if(age>1 && age<=3)
   {
     ageGroup = "Молодые собаки";
   }
-if(age>3 && age<=7)
+if(age<=7)
   {
     ageGroup = "Собаки средних лет";
   }
