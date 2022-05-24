@@ -1,5 +1,5 @@
-let isRaining = false;
-let temperature = 25;
+const isRaining = false;
+const temperature = 25;
 let minutes;
 if (isRaining)
   {
