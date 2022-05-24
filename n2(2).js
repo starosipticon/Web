@@ -1,6 +1,6 @@
 let numbers = [6, 2, 13, 9, 7, 3];
 let lastIndex = -1;
-let numWeSearch = 6;
+const numWeSearch = 6;
 let swap;
 
 for (let i = 0; i < numbers.length; i++) 
