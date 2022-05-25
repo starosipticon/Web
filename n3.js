@@ -1,5 +1,5 @@
 let calculateSalary = function (blackSalary) {
-const percent = 0.35
+let percent = 0.35
 if (blackSalary >= 100000) {
 percent = 0.45;
 }
