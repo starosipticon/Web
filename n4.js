@@ -1,6 +1,6 @@
 let getPrice = function(time, isQuickly)
 {
-  const rate = 1500;
+  let rate = 1500;
   if (isQuickly) 
   {
     time /= 2;
