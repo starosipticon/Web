@@ -1,0 +1,486 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    color: 000;
+    font-size: 16px;
+}
+.body1 {
+    background-color: #323232;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    margin: 10px 0 10px 0 ;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url('https://www.crushpixel.com/big-static18/preview4/sushi-rolls-with-shrimp-salmon-2835026.jpg') no-repeat center top / cover;
+}
+#header1 {
+    background-color: #323232;
+}
+
+header li {
+    color: #C4C4C4;
+}
+header a {
+    color: #C4C4C4;
+}
+
+.menu {
+    display: flex;
+}
+
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    background: #000;
+    
+}
+.tel {
+    font-size: 24px;
+    padding: 10px 100px 6px 100px;
+    transition: all 0.2s ease;
+}
+.home, .catalog, .about, .list {
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+
+
+.tel:hover, .home:hover, .catalog:hover, .about:hover, .list:hover{
+    background: #000;
+    color: #CE2E2E;
+    transition: all 0.2s ease;
+}
+
+.tel.active, .home.active, .catalog.active, .about.active, .list.active{
+    opacity: 0.3;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+}
+
+.colortext {
+    color: #CE2E2E;
+}
+
+.info {
+    display: flex;
+}
+.dopinfo {
+    display: flex;
+}
+.dopinfo li {
+    border-radius: 20px;
+    background: #000;
+    padding: 15px;
+    margin-top: 600px;
+    
+}
+.ll {
+    margin-left: 550px;
+}
+.footer {
+    background-color: #000;
+    color: #CE2E2E ;
+    margin-top: 860px;
+    padding: 20px;
+}
+.footer2 {
+    background-color: #000;
+    color: #CE2E2E ;
+    margin-top: 860px;
+    padding: 20px;
+}
+.footer1 {
+    background-color: #000;
+    color: #CE2E2E ;
+    margin-top: -20px;
+    padding: 20px;
+}
+.footer3 {
+    background-color: #000;
+    color: #CE2E2E ;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+
+/* сами объекты */
+.products-clearfix{
+    float: left;
+    width: 80%;
+}
+.product-wrapper {
+	display: block;
+	width:25%;
+	float: left;
+	transition: width .2s;
+}
+.product {
+	display: block;
+	
+	border-radius: 20px;
+	position: relative;
+	background: #000;
+	margin: 0 10px 10px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 400px;
+}
+.product-name {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin: 10px 30px 0px 60px;
+    color:#CE2E2E;
+    font-size: 20px;
+}
+
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+	border-bottom: 5px solid #C4C4C4;
+}
+
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+.product-description{
+	float: left;
+	color: #C4C4C4;
+	font: 18px/18px 'Oswald', sans-serif;
+	margin: 15px;
+}
+.product-button{
+	position: absolute;
+    border: none;
+    border-radius: 10px;
+	bottom: 0;
+	right: 0;
+	margin: 7px;
+    width: 150px;
+    height: 30px;
+    color:#C4C4C4;
+    background-color: #CE2E2E;
+}
+.price{
+	color: #CE2E2E;
+	font: 25px/25px 'Oswald', sans-serif;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 10px;
+}
+
+
+.order {
+    text-align: center;
+    background-color: #CE2E2E;
+    font-size: 24px;
+}
+
+.check {
+    display: flex;
+}
+.checkout {
+    display: flex;
+    margin-top: 500px;
+    margin-left: -1200px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.checkout li {
+    border-radius: 15px;
+    background-color: #000;
+    padding: 10px;
+    color:#C4C4C4;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #CE2E2E;
+    background-color: #000;
+    border-radius: 30px;
+    
+}
+
+.insta {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat';
+        color: 000;
+        font-size: 16px;
+    }
+    .body1 {
+        background-color: #323232;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    ul, li {
+        display: block;
+        margin: 10px 0 10px 0 ;
+    }
+    
+    
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    #header {
+        background: url('https://www.crushpixel.com/big-static18/preview4/sushi-rolls-with-shrimp-salmon-2835026.jpg') no-repeat center top / cover;
+    }
+    #header1 {
+        background-color: #323232;
+    }
+    
+    header li {
+        color: #C4C4C4;
+    }
+    header a {
+        color: #C4C4C4;
+    }
+    
+    .menu {
+        display: flex;
+    }
+    
+    .menu li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 20px;
+        background: #000;
+        
+    }
+    .tel {
+        font-size: 16px;
+        padding: 5x 5px 3px 5px;
+    }
+    .home, .catalog, .about, .list {
+        font-size: 12px;
+        padding: 3px;
+    }
+    
+    .menu li {
+        margin-right: 10px;
+    }
+    
+    .nav {
+        display: flex;
+    }
+    
+    .colortext {
+        color: #CE2E2E;
+    }
+    
+    .info {
+        display: flex;
+    }
+    .dopinfo {
+        display: flex;
+    }
+    .dopinfo li {
+        border-radius: 20px;
+        background: #000;
+        padding: 10px;
+        margin-top: 600px;
+        
+    }
+    .ll {
+        margin-left: 100px;
+    }
+    .footer {
+        background-color: #C4C4C4;
+        color: #CE2E2E ;
+        margin-top: 860px;
+        padding: 20px;
+    }
+    .footer2 {
+        background-color: #C4C4C4;
+        color: #CE2E2E ;
+        margin-top: 1800px;
+        padding: 20px;
+    }
+    .footer1 {
+        background-color: #C4C4C4;
+        color: #CE2E2E ;
+        margin-top: -20px;
+        padding: 20px;
+    }
+    .footer3 {
+        background-color: #C4C4C4;
+        color: #CE2E2E ;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    
+    
+    /* сами объекты */
+    .products-clearfix{
+        float: left;
+        width: 80%;
+    }
+    .product-wrapper {
+        display: block;
+        width:200px;
+        float: left;
+        transition: width .2s;
+        margin-left: 70px;
+    }
+    .product {
+        display: block;
+        
+        border-radius: 20px;
+        position: relative;
+        background: #000;
+        margin: 0 10px 10px 0;
+        text-decoration: none;
+        color: #474747;
+        z-index: 0;
+        height: 400px;
+    }
+    .product-name {
+        position: absolute;
+        width: 200px;
+        height: 30px;
+        margin: 10px 30px 0px 20px;
+        color:#CE2E2E;
+        font-size: 20px;
+    }
+    
+    .product-photo {
+        position: relative;
+        padding-bottom: 100%;
+        overflow: hidden;
+        border-bottom: 5px solid #C4C4C4;
+    }
+    
+    .product-photo img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        transition: transform .4s ease-out;
+    }
+    .product-description{
+        float: left;
+        color: #C4C4C4;
+        font: 18px/18px 'Oswald', sans-serif;
+        margin: 15px;
+    }
+    .product-button{
+        position: absolute;
+        border: none;
+        border-radius: 10px;
+        bottom: 0;
+        right: 0;
+        margin: 7px;
+        width: 70px;
+        height: 30px;
+        color:#C4C4C4;
+        background-color: #CE2E2E;
+    }
+    .price{
+        color: #CE2E2E;
+        font: 25px/25px 'Oswald', sans-serif;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 10px;
+    }
+    
+    
+    .order {
+        text-align: center;
+        background-color: #CE2E2E;
+        font-size: 24px;
+    }
+    
+    .check {
+        display: flex;
+    }
+    .checkout {
+        display: flex;
+        margin-top: 900px;
+        margin-left: -600px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .checkout li {
+        border-radius: 15px;
+        background-color: #000;
+        padding: 10px;
+        color:#C4C4C4;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 24px;
+        color: #CE2E2E;
+        background-color: #000;
+        border-radius: 30px;
+        
+    }
+    
+    .insta {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+    }
+    
+}
